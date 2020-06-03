@@ -12,6 +12,7 @@ var verifyOptions = {
     const decodedToken = jwt.verify(token, publicKEY,verifyOptions);
     console.log("\nJWT verification result: " + JSON.stringify(decodedToken));
 //return decodedToken;
+//return decodedToken;
 };
 
 module.exports
